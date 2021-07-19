@@ -1,0 +1,121 @@
+{
+    "telemetry.enableTelemetry": false,
+    "editor.fontSize": 20,
+    // "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    // "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        },
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 16,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.inheritEnv": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                    "borderWidth": "0 0 0 3px",
+                    "borderStyle": "solid",
+                    "borderColor": "cyan",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            },
+            "right": {
+                "custom": {
+                    "borderWidth": "0 3px 0 0",
+                    "borderStyle": "solid",
+                    "borderColor": "cyan",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            }
+        }
+    },
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "material-icon-theme",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+    "bracket-pair-colorizer-2.colors": [
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 0,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    // "go.buildOnSave": "workspace",
+    // "go.toolsManagement.autoUpdate": true,
+    // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    // "python.languageServer": "Pylance",
+    // "python.showStartPage": false,
+    // "[python]": {
+    //     "editor.defaultFormatter": "ms-python.python"
+    // },
+    // "python.linting.pycodestyleEnabled": false,
+    // "python.formatting.provider": "autopep8",
+    // "python.formatting.autopep8Path": "autopep8",
+    // "python.formatting.autopep8Args": [
+    //     "--max-line-length",
+    //     "120",
+    //     "--experimental"
+    // ],
+    // "dart.debugExternalLibraries": false,
+    // "dart.debugSdkLibraries": false,
+    // "dart.allowAnalytics": false,
+    // "liveServer.settings.donotShowInfoMsg": true,
+    // "dart.warnWhenEditingFilesInPubCache": false,
+    // "dart.openDevTools": "flutter",
+    // "dart.previewLsp": true,
+}
