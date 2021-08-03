@@ -1,3 +1,9 @@
+shell:
+  program: /usr/bin/zsh
+  args:
+    - -l
+    - -c
+    - "export LC_ALL=en_US.UTF-8 && tmux"
 colors:
   primary:
     background: '0x282a36'
@@ -53,7 +59,7 @@ colors:
     white:   '0xe6e6d1'
 font:
   normal:
-    family: monospace
+    family: MesloLGS NF
     style: Regular
 
   bold:
