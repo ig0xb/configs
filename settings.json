@@ -103,6 +103,7 @@
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "cmake.configureOnOpen": true,
     // "go.buildOnSave": "workspace",
     // "go.toolsManagement.autoUpdate": true,
     // "python.languageServer": "Pylance",
